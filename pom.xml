@@ -3,6 +3,62 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <url>https://github.com/pFischer1218/GroupG_Teamrepo</url>
+
+<developers>
+    <developer>
+        <id>pFischer1218</id>
+        <name>Peter Fischer</name>
+        <email>peter.fischer@edu.fh-joanneum.at</email>
+        <roles>
+            <role>Student</role>
+        </roles>
+        <timezone>Europe/Vienna</timezone>
+    </developer>
+    <developer>
+        <id>gabrielschrittwieser</id>
+        <name>Gabriel Schrittwieser</name>
+        <email>gabriel.schrittwieser@edu.fh-joanneum.at</email>
+        <roles>
+            <role>Student</role>
+        </roles>
+        <timezone>Europe/Vienna</timezone>
+    </developer>
+</developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>21</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <groupId>org.example</groupId>
     <artifactId>GroupG_TeamRepo</artifactId>
