@@ -36,7 +36,7 @@ This is the offical Readme File for our seventh Exercise.
 
 ### Branch bug_hunt
 
-[ ] Find and fix errors in the code
+[X] Find and fix errors in the code
 
 ### Branch drink
 
