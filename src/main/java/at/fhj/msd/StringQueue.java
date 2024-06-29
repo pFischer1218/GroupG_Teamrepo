@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 
 // there's some Bugs included, try to debug the code and fix the Bugs
 // there are different Bugs, wrong implementation, typos, ...
-// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
+// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilities of your IDE
 
 public class StringQueue implements IQueue {
 
@@ -14,7 +14,7 @@ public class StringQueue implements IQueue {
   private int maxSize = 5;
 
   public StringQueue(int maxsize) {
-    maxSize = maxSize;
+    maxSize = maxsize;
   }
 
   @Override
@@ -68,4 +68,4 @@ public class StringQueue implements IQueue {
     return element;
   }
 
-}s
+}
