@@ -30,9 +30,9 @@ This is the offical Readme File for our seventh Exercise.
 
 ### Branch maven_detail
 
-[ ] Add further dependencies to pom.xml file\
-[ ] Add Developer Information for each Group member\
-[ ] Add address for git repo
+[X] Add further dependencies to pom.xml file\
+[X] Add Developer Information for each Group member\
+[X] Add address for git repo
 
 ### Branch bug_hunt
 
