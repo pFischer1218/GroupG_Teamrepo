@@ -40,8 +40,8 @@ This is the offical Readme File for our seventh Exercise.
 
 ### Branch drink
 
-[ ] Create class `Cocktail`, implementing the Drink Interface\
-[ ] Implement class as requested in the instructions
+[X] Create class `Cocktail`, implementing the Drink Interface\
+[X] Implement class as requested in the instructions
 
 ### Branch queue
 
