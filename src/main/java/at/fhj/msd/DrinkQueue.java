@@ -14,15 +14,15 @@ public class DrinkQueue {
     /**
      * Maximum Size of the Queue
      */
-    private final int MAX_SIZE = 5;
+    private int maxSize = 5;
 
     /**
      * Constructor for the DrinkQueue that takes a List of Drinks as its parameter
      *
-     * @param drinks List of drinks
+     * @param maxSize Maximum Size of the Queue
      */
-    public DrinkQueue(ArrayList<Drink> drinks) {
-        this.drinks = drinks;
+    public DrinkQueue(int maxSize) {
+        this.maxSize = maxSize;
     }
 
     /**
@@ -32,7 +32,7 @@ public class DrinkQueue {
      * @return True if the Drink has been added, false if the Drink couldn't be added
      */
     public boolean offer(Drink obj) {
-        if (drinks.size() != MAX_SIZE) {
+        if (drinks.size() != maxSize) {
             drinks.add(obj);
             return true;
         } else
