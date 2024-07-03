@@ -4,12 +4,6 @@ import java.util.List;
 public class Cocktail extends Drink {
     private List<Liquid> liquids;
 
-    /**
-     * Creates a Drink object with given name
-     *
-     * @param name name of the drink
-     * @param liquids drink ingredients
-     */
     public Cocktail(String name, List<Liquid> liquids) {
         super(name);
         this.liquids = liquids;
@@ -17,16 +11,30 @@ public class Cocktail extends Drink {
 
     @Override
     public double getVolume() {
-        return 0;
+        double volume = 0.0;
+        for (Liquid l : liquids) {
+            volume += l.getVolume();
+        }
+        return volume;
     }
 
     @Override
     public double getAlcoholPercent() {
-        return 0;
+        double drinkVolume = getVolume();
+        double alcoholVolume = 0.0;
+
+        if (drinkVolume == 0)
+            return 0.0;
+
+        for (Liquid l : liquids) {
+            alcoholVolume += (l.getVolume() * l.getAlcoholPercent() / 100);
+        }
+
+        return (alcoholVolume / drinkVolume) * 100;
     }
 
     @Override
     public boolean isAlcoholic() {
-        return false;
+        return this.getAlcoholPercent() > 0;
     }
 }
