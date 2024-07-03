@@ -50,5 +50,6 @@ public class DrinkQueue {
         } else {
             throw new NoSuchElementException();
         }
+        
     }
 }
