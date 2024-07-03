@@ -41,17 +41,17 @@ This is the offical Readme File for our seventh Exercise.
 ### Branch drink
 
 - [x] Create class `Cocktail`, implementing the Drink Interface
-- [ ] Implement class as requested in the instructions
+- [x] Implement class as requested in the instructions
 
 ### Branch queue
 
-- [ ] Create class `DrinkQueue`
+- [x] Create class `DrinkQueue`
 - [ ] Seperate into two branches with each individiual implementation
 - [ ] Merge the branches back together once finished
 
 ### Branch javadoc
 
-- [ ] Write JavaDoc comments for each method
+- [x] Write JavaDoc comments for each method
 
 ### Branch tests
 
