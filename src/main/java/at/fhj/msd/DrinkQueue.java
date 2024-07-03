@@ -5,14 +5,14 @@ import java.util.NoSuchElementException;
 
 public class DrinkQueue {
     private ArrayList<Drink> drinks;
-    private final int MAX_SIZE = 5;
+    private int maxSize = 5;
 
-    public DrinkQueue(ArrayList<Drink> drinks) {
-        this.drinks = drinks;
+    public DrinkQueue(int maxSize) {
+        this.maxSize = maxSize;
     }
 
     public boolean offer(Drink obj) {
-        if (drinks.size() != MAX_SIZE) {
+        if (drinks.size() != maxSize) {
             drinks.add(obj);
             return true;
         } else
