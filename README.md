@@ -46,8 +46,8 @@ This is the offical Readme File for our seventh Exercise.
 ### Branch queue
 
 - [x] Create class `DrinkQueue`
-- [ ] Seperate into two branches with each individiual implementation
-- [ ] Merge the branches back together once finished
+- [x] Seperate into two branches with each individiual implementation
+- [x] Merge the branches back together once finished
 
 ### Branch javadoc
 
@@ -55,9 +55,9 @@ This is the offical Readme File for our seventh Exercise.
 
 ### Branch tests
 
-- [ ] Implement Tests for each Class
-- [ ] Reach 100% Test Coverage
-- [ ] `mvn test` has to run without errors
+- [x] Implement Tests for each Class
+- [x] Reach 100% Test Coverage
+- [x] `mvn test` has to run without errors
 
 ### Branch maven_site
 
