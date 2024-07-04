@@ -61,7 +61,7 @@ This is the offical Readme File for our seventh Exercise.
 
 ### Branch maven_site
 
-- [ ] Create a maven site documentation
-- [ ] Add markdown file for member 1
-- [ ] Add markdown file for member 2
-- [ ] `mvn site` has to run without errors
+- [x] Create a maven site documentation
+- [x] Add markdown file for member 1
+- [x] Add markdown file for member 2
+- [x] `mvn site` has to run without errors
