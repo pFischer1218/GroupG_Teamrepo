@@ -23,6 +23,7 @@ public class DrinkQueue {
      */
     public DrinkQueue(int maxSize) {
         this.maxSize = maxSize;
+        drinks = new ArrayList<Drink>();
     }
 
     /**
