@@ -1,0 +1,14 @@
+<project name="Group Project - Group G">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Project Information" href="project-info.html"/>
+            <item name="Test Statistics" href="../site/jacoco/at.fhj.msd/index.html"/>
+            <item name="API Documentation" href="../site/apidocs/at/fhj/msd/package-summary.html"/>
+            <item name="Peter Fischer" href="PeterFischer.html"/>
+            <item name="Gabriel Schrittwieser" href="GabrielSchrittwieser.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
